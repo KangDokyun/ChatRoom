@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>ChatRoom</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/amazeui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/amazeui.css"></link>
+    <style>
+        .testdiv{
+            -webkit-transform: scale(0.8,1.2);
+        }
+        .font_0 {
+            font: bolder normal normal 110px/3.4em dinneuzeitgroteskltw01-_812426, sans-serif;
+            color: #FFFFFF;
+            text-align:center;
+        }
+        body{
+            margin: 0;
+        }
+        video{
+            position:fixed;
+            right:0;
+            bottom:0;
+            min-width:100%;
+            min-height:100%;
+            width:auto;
+            height:auto;
+            z-index:-9999;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop style="width:100%">
+            <source src="video/cloud.mp4">
+    </video>
+    <div class="am-g" style="margin: 13% 0px 0px 0px; text-align:center; color:#FFFFFF; ">
+        <div class="am-u-lg-12" style="font-weight:lighter"> Share your happiness </div>
+        <div class="am-u-lg-12" style="-webkit-transform:scale(0.8,1.2);font-size:110px;font-weight:bolder">
+            Chat Room
+        </div>
+        <div class="am-u-lg-3 am-u-lg-centered am-input-group">
+            <span class="am-input-group-label" style="border:0;background:transparent;color:#FFFFFF"><i class="am-icon-user"></i></span>  
+            <input class="am-form-field" type="text" placeholder="Enter your name" style="border:0;background:rgba(255,255,255,0.4);color:#29385F" >
+        </div>
+    </div>
+    
+</body>
+</html>
